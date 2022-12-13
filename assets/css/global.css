@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding: .25rem .5rem;
+}
+
+body {
+    background-color: #c7c7c7;
+    background-image: url(./img/pokemon.svg);
+    background-size: 15rem;
+    
+
+}
+
+.content {
+    padding: 16px;
+    background-color: #ffff;
+    height: 100%;
+    width: 100vw;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    font-size: .786rem;
+    background-color: #6c79db;
+    border: none;
+    border-radius: .3rem;
+    color: #ffff;
+    padding: .25rem .5rem;
+}  
+
+.pagination button:hover{
+    background-color: #424a83;
+    color: #000;
+}
